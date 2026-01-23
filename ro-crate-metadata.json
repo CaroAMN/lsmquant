@@ -99,7 +99,7 @@
             },
             "mentions": [
                 {
-                    "@id": "#34c5115c-8a8f-4731-8dd4-bad38558ffbc"
+                    "@id": "#c2ddda56-ca93-4e51-9bba-60e75e52a7b7"
                 }
             ],
             "name": "nf-core/lsmquant"
@@ -127,7 +127,7 @@
                 "ComputationalWorkflow"
             ],
             "dateCreated": "",
-            "dateModified": "2025-07-08T11:38:54Z",
+            "dateModified": "2025-11-20T09:32:07Z",
             "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/",
             "keywords": [
                 "nf-core",
@@ -169,14 +169,14 @@
             "url": {
                 "@id": "https://www.nextflow.io/"
             },
-            "version": "!>=24.10.5"
+            "version": "!>=25.04.0"
         },
         {
-            "@id": "#34c5115c-8a8f-4731-8dd4-bad38558ffbc",
+            "@id": "#c2ddda56-ca93-4e51-9bba-60e75e52a7b7",
             "@type": "TestSuite",
             "instance": [
                 {
-                    "@id": "#5ce8fe0c-e76f-4304-87cd-b40f7244fc2a"
+                    "@id": "#307c0c4c-c0d9-4314-8114-58a7839b3dac"
                 }
             ],
             "mainEntity": {
@@ -185,7 +185,7 @@
             "name": "Test suite for nf-core/lsmquant"
         },
         {
-            "@id": "#5ce8fe0c-e76f-4304-87cd-b40f7244fc2a",
+            "@id": "#307c0c4c-c0d9-4314-8114-58a7839b3dac",
             "@type": "TestInstance",
             "name": "GitHub Actions workflow for testing nf-core/lsmquant",
             "resource": "repos/nf-core/lsmquant/actions/workflows/nf-test.yml",
